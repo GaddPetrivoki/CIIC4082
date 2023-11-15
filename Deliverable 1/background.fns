@@ -1,0 +1,26 @@
+; background.asm
+LoadSpritesLoop                  = $C059
+LoadPalettes                     = $C03D
+LatchController                  = $C0C6
+LoadBackgroundLoop               = $C073
+bottombackground                 = $E110
+Forever                          = $C0B9
+palette                          = $E000
+LoadPalettesLoop                 = $C04C
+ReadBDone                        = $C0F0
+background                       = $E030
+LoadBottomBackground             = $C08A
+LoadSprites                      = $C057
+LoadAttribute                    = $C095
+ReadA                            = $C0D0
+attribute                        = $E150
+ReadB                            = $C0E0
+vblankwait1                      = $C014
+vblankwait2                      = $C038
+clrmem                           = $C019
+RESET                            = $C000
+sprites                          = $E020
+ReadADone                        = $C0E0
+NMI                              = $C0BC
+LoadAttributeLoop                = $C0A4
+LoadBackground                   = $C064
