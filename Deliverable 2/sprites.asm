@@ -125,6 +125,12 @@ sprites:
   .db $98, $25, $00, $80   ;sprite 2
   .db $98, $26, $00, $88   ;sprite 3
   
+  
+  .db $70, $17, $00, $A0   ;sprite 0
+  .db $70, $18, $00, $A8   ;sprite 1
+  .db $78, $27, $00, $A0   ;sprite 2
+  .db $78, $28, $00, $A8   ;sprite 3
+  
     ; Standing
   .db $70, $12, $40, $90   ;sprite 0
   .db $70, $11, $40, $98   ;sprite 1
@@ -140,6 +146,12 @@ sprites:
   .db $90, $15, $40, $98   ;sprite 1
   .db $98, $26, $40, $90   ;sprite 2
   .db $98, $25, $40, $98   ;sprite 3
+  
+  .db $90, $17, $40, $A0   ;sprite 0
+  .db $90, $18, $40, $A8   ;sprite 1'
+  .db $98, $27, $40, $A0   ;sprite 2
+  .db $98, $28, $40, $A8   ;sprite 3
+  
   
   .org $FFFA     ;first of the three vectors starts here
   .dw NMI        ;when an NMI happens (once per frame if enabled) the 
